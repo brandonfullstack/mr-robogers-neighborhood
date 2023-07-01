@@ -2,3 +2,12 @@ body {
   color: blueviolet;
   background-color: #2b2b2b;
 }
+
+div#return-field {
+  background-color: #151515;
+  width: 75%;
+  float: left;
+  margin: 1rem;
+  padding: 1rem;
+  overflow-wrap: break-word;
+}

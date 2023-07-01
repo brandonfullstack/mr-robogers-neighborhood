@@ -3,20 +3,16 @@
 function beepBoop(number) {
   let numberArray = [];
   for (let i = 0; i <= number; i++) {
-    let string = i.toString();
-    let numberString = "";
-    for (let x = 0; x < string.length; x++) {
-      if (string[x] === "1") {
-        numberString += "Beep!";
-      } else if (string[x] === "2") {
-        numberString += "Boop!";
-      } else if (string[x] === "3") {
-        numberString += "Won't you be my neighbor?";
-      } else {
-        numberString += string[x];
-      }
+    let numberString = i.toString();
+    if (numberString.indexOf("3") > -1) {
+      numberArray.push("Won't you be my neighbor?");
+    } else if (numberString.indexOf("2") > -1) {
+      numberArray.push("Boop!");
+    } else if (numberString.indexOf("1") > -1) {
+      numberArray.push("Beep!");
+    } else {
+      numberArray.push(i);
     }
-    numberArray.push(numberString);
   }
   return numberArray;
 }
@@ -30,7 +26,7 @@ window.onload = function () {
     form.reset();
     document.getElementById("converted-text").innerText = "";
   })
-  
+
   form.onsubmit = function (event) {
     event.preventDefault();
     document.getElementById("converted-text").innerText = "";
