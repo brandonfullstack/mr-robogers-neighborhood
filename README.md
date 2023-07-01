@@ -13,7 +13,7 @@
 
 ## Description
 
-_Enter a number and witness amazing conversion into a mash up of retro robot onomatopoeias and Mr. Rogers themed giberish._
+_Enter a number and witness its amazing conversion into a mash up of retro robot onomatopoeias and Mr. Rogers themed giberish._
 
 ## Setup/Installation Requirements
 
