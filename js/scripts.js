@@ -36,5 +36,3 @@ window.onload = function () {
   }
   form.reset();
 };
-
-//console.log(list);
