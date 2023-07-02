@@ -3,13 +3,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(223, 197, 247);
+  color: antiquewhite;
   background-color: #2b2b2b;
+}
+
+h1 {
+  color: coral;
 }
 
 div#return-field {
   border: 2px solid #3b3b3b;
-  color: antiquewhite;
+  color: aquamarine;
 }
 
 .container {
