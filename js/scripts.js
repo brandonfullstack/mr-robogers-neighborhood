@@ -2,7 +2,7 @@
 
 function beepBoop(number) {
   let numberArray = [];
-  for (let i = 0; i <= number; i++) {
+  for (let i = 0; i <= number; i += 1) {
     let numberString = i.toString();
     if (numberString.indexOf("3") > -1) {
       numberArray.push("Won't you be my neighbor?");
@@ -14,7 +14,7 @@ function beepBoop(number) {
       numberArray.push(i);
     }
   }
-  return numberArray;
+  return numberArray.join(', ');
 }
 
 // UI Logic
