@@ -5,11 +5,11 @@ function beepBoop(number) {
   for (let i = 0; i <= number; i += 1) {
     let numberString = i.toString();
     if (numberString.indexOf("3") > -1) {
-      numberArray.push("Won't you be my neighbor?");
+      numberArray.push("\"Won't you be my neighbor?\"");
     } else if (numberString.indexOf("2") > -1) {
-      numberArray.push("Boop!");
+      numberArray.push("\"Boop!\"");
     } else if (numberString.indexOf("1") > -1) {
-      numberArray.push("Beep!");
+      numberArray.push("\"Beep!\"");
     } else {
       numberArray.push(i);
     }
